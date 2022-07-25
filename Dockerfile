@@ -41,7 +41,7 @@ COPY yarn.lock /usr/src/app/yarn.lock
 
 RUN apt-get update && apt-get install -y python make g++
 # Run the install before copying the rest of the files
-RUN yarn config set workspaces-experimental true
+#RUN yarn config set workspaces-experimental false
 # RUN yarn install --verbose
 
 ENV PATH /usr/src/app/node_modules/.bin:$PATH

@@ -135,7 +135,7 @@ deployment recipe.
 - [Yarn 1.17.3+](https://yarnpkg.com/en/docs/install)
 - [Node 10+](https://nodejs.org/en/)
 - Yarn Workspaces should be enabled on your machine:
-  - `yarn config set workspaces-experimental true`
+  - `yarn config set workspaces-experimental false`
 
 ### Getting Started
 
@@ -153,7 +153,7 @@ _From this repository's root directory:_
 
 ```bash
 # Enable Yarn Workspaces
-yarn config set workspaces-experimental true
+yarn config set workspaces-experimental false
 
 # Restore dependencies
 yarn install

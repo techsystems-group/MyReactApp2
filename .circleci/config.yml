@@ -98,7 +98,7 @@ jobs:
     <<: *defaults
     steps:
       # Enable yarn workspaces
-      - run: yarn config set workspaces-experimental true
+      - run: yarn config set workspaces-experimental false
 
       # Checkout code and ALL Git Tags
       - checkout:

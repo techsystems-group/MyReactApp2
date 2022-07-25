@@ -73,7 +73,7 @@ this repository's root directory, and run:
 
 ```bash
 # If you haven't already, enable yarn workspaces
-yarn config set workspaces-experimental true
+yarn config set workspaces-experimental false
 
 # Restore dependencies
 yarn install

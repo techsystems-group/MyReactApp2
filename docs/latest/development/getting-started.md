@@ -39,7 +39,7 @@ aren't as concerned with syncing updates, then follow these steps:
 - [Node.js & NPM](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/en/)
 - Yarn workspaces should be enabled:
-  - `yarn config set workspaces-experimental true`
+  - `yarn config set workspaces-experimental false`
 
 ### Kick the tires
 

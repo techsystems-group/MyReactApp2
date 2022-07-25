@@ -35,7 +35,7 @@ Next run these commands:
 
 ```js
 // If you haven't already, enable yarn workspaces
-yarn config set workspaces-experimental true
+yarn config set workspaces-experimental false
 
 // Restore dependencies
 yarn install
