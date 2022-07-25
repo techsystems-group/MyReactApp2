@@ -21,8 +21,8 @@ yalc.lock
 .idea/
 .npm
 npm-debug.log
-package-lock.json
-yarn-error.log
+#package-lock.json
+#yarn-error.log
 .DS_Store
 .env
 
